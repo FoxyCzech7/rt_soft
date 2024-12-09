@@ -9,8 +9,8 @@ Tato aplikace umožňuje rezervování místností v budově. Uživatelé mohou 
      - **Název místnosti** (např. "Konferenční místnost 1")
      - **Datum rezervace** (ve formátu mm/dd/yyyy)
      - **Časový úsek** (např. 10:00:00 – 12:00:00, ve 24-hodinovém formátu)
-     - **Vaše jméno** (osoba, která provádí rezervaci)
-   - Po odeslání formuláře bude rezervace přidána a zobrazená v seznamu.
+     - **Vaše jméno**
+   - Po odeslání formuláře bude rezervace přidána a zobrazená v seznamu v případě že nezdadáte špatné údaje (viz. validce a pravidla).
 
 **Zobrazení všech rezervací:**
    - Všichni uživatelé mohou prohlížet seznam všech rezervací.
@@ -18,7 +18,7 @@ Tato aplikace umožňuje rezervování místností v budově. Uživatelé mohou 
 **Zrušení rezervace:**
    - Pokud chcete zrušit svou rezervaci, zadejte ID rezervace a klikněte na tlačítko "Zrušit rezervaci".
 
-Validace a pravidla
+**Validace a pravidla**
 - **Datum rezervace musí být v budoucnosti.**
 - **Časový úsek musí být platný:** Čas začátku musí být před časem konce.
 - **Žádné překrytí rezervací:** Ppokud je místnost již obsazena v daném čase, nebude možné provést rezervaci.
